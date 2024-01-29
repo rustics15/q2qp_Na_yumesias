@@ -1,0 +1,233 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    overflow: hidden;
+}
+#video{
+    background-color: black;
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    z-index: -1;
+}
+
+video{
+    width: 100vw;
+}
+#bakg{
+    position: fixed;
+    z-index: ;
+}
+nav{
+    background-color: #0A93AC;
+    height: 9vh;
+    text-align: center;
+    z-index: 11;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+nav a:hover{
+    transform: scale(1.4);
+    opacity: 0.5;
+}
+#logo{
+    display: inline-block;
+    position: relative;
+    float: left;
+    left: 1vh;
+    top: 0.5vh;
+    height: 6vh;
+    border-radius: 50%;
+}
+#likharal{
+    display: inline-block;
+    position: relative;
+    bottom: 4vh;
+    font-size: xx-large;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+.link{
+    display: inline-block;
+    position: relative;
+    float: right;
+    padding: 1vh;
+    padding-right: 2vh;
+    bottom: 4vh;
+}
+section{
+    height: 25vh;
+    width: 50vw;
+    z-index: 3;
+}
+section h1{
+    padding: 10vh;
+    font-size: large;
+}
+span{
+    position: absolute;
+    padding-top: 1vh;
+    font-size: 7vh;
+    z-index: 4;
+}
+article{
+    height: 59vh;
+    width: 50vw;
+}
+article p{
+    padding: 10vh;
+    padding-top: 2vh;
+    font-size: small;
+}
+aside{
+    position: absolute;
+    display: block;
+    text-align: center;
+    right: 0vh;
+    top: 9vh;
+    width: 50vw;
+    height: 84vh;
+}
+.vid{
+    background-color: black;
+    width: 35vw;
+    padding-bottom: 1vh;
+    transition: 1s;
+    z-index: 2;
+}
+.vid:hover{
+    z-index: 11;
+    animation-play-state: paused;
+    transform:scale(1.2);
+}
+@keyframes scroll1{
+    from{
+        transform: translatey(-150vh);
+    }
+
+    to {
+        transform: translatey(100vh);
+    }
+}
+#vid4{
+    background-color: blue;
+    animation-name: scroll1;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes scroll2{
+    from{
+        transform: translatey(-120vh);
+    }
+
+    to {
+        transform: translatey(100vh);
+    }
+}
+#vid3{
+    background-color: purple;
+    animation-name: scroll2;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes scroll3{
+    from{
+        transform: translatey(-100vh);
+    }
+
+    to {
+        transform: translatey(100vh);
+    }
+}
+#vid2{
+    background-color: white;
+    animation-name: scroll3;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes scroll4{
+    from{
+        transform: translatey(-100vh);
+    }
+
+    to {
+        transform: translatey(100vh);
+    }
+}
+#vid1{
+    background-color: black;
+    animation-name: scroll4;
+    animation-duration: 10s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+footer{
+    position: fixed;
+    background-color: black;
+    height: 7vh;
+    width: 100vw;
+    padding: 2vh;
+    color: white;
+    z-index: 6;
+}
+
+#about{
+
+    width: 100vw;
+    height: 25vh;
+}
+#about2{
+
+    width: 100vw;
+    height: 25vh;
+}
+#about3{
+    width: 100vw;
+    height: 30vh;
+}
+section p{
+    position: relative;
+    padding-left: 5vh;
+    bottom: 10vh;
+}
+
+#wwd{
+    width: 100vw;
+    height: 10vh;
+}
+#wwd2{
+    width: 100vw;
+}
+#wwd3{
+
+    width: 100vw;
+}
+#wwd4{
+
+    width: 100vw;
+}
+#fb{
+    background-position: -439px -146px;
+}
+
+.icon{
+    background: url(/contentmedia/sprite.png) no-repeat;
+    width: 66px;
+    height: 66px;
+    display: inline-block;
+}
+
